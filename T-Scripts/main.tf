@@ -2,6 +2,7 @@ provider "aws" {
   region = "ap-south-1"
   access_key = "AKIAXGZALZLKKEMHAL7B"
   secret_key = "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"
+}
 
 variable vpc_cidr_block {}
 variable subnet_1_cidr_block {}
